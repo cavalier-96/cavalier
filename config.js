@@ -5,7 +5,7 @@ window.CAV_SITE = {
   EMAIL: "cavalier_-@naver.com",
   SELLER: "cavalier",
   PRODUCTS: {
-    clean:  { NAME: "Cavalier Clean",  DOWNLOAD_URL: "", VERSION: "1.0.0 베타", SIZE: "약 50MB" },
-    hotkey: { NAME: "Cavalier Hotkey", DOWNLOAD_URL: "", VERSION: "3.7.0",      SIZE: "" },
+    clean:  { NAME: "Cavalier Clean",  DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/clean-v1.0.0-beta/CavalierClean-1.0.0-beta.zip", VERSION: "1.0.0 베타", SIZE: "약 50MB" },
+    hotkey: { NAME: "Cavalier Hotkey", DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/hotkey-v3.7.0/CavalierHotkey-v3.7.0.zip", VERSION: "3.7.0",      SIZE: "약 24MB" },
   },
 };
