@@ -12,8 +12,8 @@
 <meta name="theme-color" content="#005fb8">
 <link rel="icon" href="favicon.ico">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
-<link rel="stylesheet" href="style.css?v=20261112f">
-<script src="config.js?v=20261112f"></script>
+<link rel="stylesheet" href="style.css?v=20261112g">
+<script src="config.js?v=20261112g"></script>
 </head>
 <body>
 
@@ -34,23 +34,39 @@
     <h1>매일 쓰는 PC를<br><em>더 편하게</em></h1>
     <p class="lead">필요한 프로그램만 골라 받으세요. 7일 뒤에도 무료판으로 계속 쓸 수 있어요.</p>
 
-    <div class="tiles" id="programs">
+    <div id="programs">
+    <h2 class="tiles-h">PC 관리 · 자동화</h2>
+    <div class="tiles">
       <a class="tile" href="clean/"><img src="images/logo-clean.png" alt=""><b>Clean</b><span>PC 정리 · 최적화</span></a>
       <a class="tile" href="hotkey/"><img src="images/logo-hotkey.png" alt=""><b>Hotkey</b><span>키보드 · 마우스 매크로</span></a>
+      <a class="tile" href="tools/"><img src="images/utils/logo-tools.png" alt=""><b>Tools</b><span>창 배치 · 색 따기 · 예약 종료</span></a>
+      <a class="tile" href="backup/"><img src="images/utils/logo-backup.png" alt=""><b>Backup</b><span>백업 · 동기화</span></a>
+      <a class="tile" href="recover/"><img src="images/utils/logo-recover.png" alt=""><b>Recover</b><span>지운 파일 되살리기</span></a>
+      <a class="tile" href="find/"><img src="images/utils/logo-find.png" alt=""><b>Find</b><span>파일 이름 찾기</span></a>
+      <a class="tile" href="font/"><img src="images/utils/logo-font.png" alt=""><b>Font</b><span>글꼴 미리보기 · 설치</span></a>
+    </div>
+    <h2 class="tiles-h">사진 · 영상 · 소리</h2>
+    <div class="tiles">
       <a class="tile" href="view/"><img src="images/utils/logo-view.png" alt=""><b>View</b><span>사진 · 만화 · 웹툰 보기</span></a>
       <a class="tile" href="capture/"><img src="images/utils/logo-capture.png" alt=""><b>Capture</b><span>화면 캡처 · 녹화</span></a>
-      <a class="tile" href="zip/"><img src="images/utils/logo-zip.png" alt=""><b>Zip</b><span>압축 · 풀기</span></a>
-      <a class="tile" href="clip/"><img src="images/utils/logo-clip.png" alt=""><b>Clip</b><span>클립보드 기록</span></a>
-      <a class="tile" href="convert/"><img src="images/utils/logo-convert.png" alt=""><b>Convert</b><span>영상 · 소리 · 사진 변환</span></a>
-      <a class="tile" href="rename/"><img src="images/utils/logo-rename.png" alt=""><b>Rename</b><span>이름 한꺼번에 바꾸기</span></a>
-      <a class="tile" href="tools/"><img src="images/utils/logo-tools.png" alt=""><b>Tools</b><span>작은 도구 4가지</span></a>
+      <a class="tile" href="photo/"><img src="images/utils/logo-photo.png" alt=""><b>Photo</b><span>사진 정리 · 중복 찾기</span></a>
+      <a class="tile" href="pix/"><img src="images/utils/logo-pix.png" alt=""><b>Pix</b><span>사진 꾸미기 · AI 배경 지우기</span></a>
       <a class="tile" href="player/"><img src="images/utils/logo-player.png" alt=""><b>Player</b><span>동영상 · 음악 플레이어</span></a>
-      <a class="tile" href="find/"><img src="images/utils/logo-find.png" alt=""><b>Find</b><span>파일 이름 찾기</span></a>
-      <a class="tile" href="pdf/"><img src="images/utils/logo-pdf.png" alt=""><b>PDF</b><span>보기 · 편집 · 변환 · 서명</span></a>
-      <a class="tile" href="backup/"><img src="images/utils/logo-backup.png" alt=""><b>Backup</b><span>백업 · 동기화</span></a>
-      <a class="tile" href="hub/"><img src="images/utils/logo-hub.png" alt=""><b>설치 도우미</b><span>골라서 한 번에 설치</span></a>
+      <a class="tile" href="convert/"><img src="images/utils/logo-convert.png" alt=""><b>Convert</b><span>영상 · 소리 · 사진 변환</span></a>
+      <a class="tile" href="cut/"><img src="images/utils/logo-cut.png" alt=""><b>Cut</b><span>쉬운 영상 편집</span></a>
+      <a class="tile" href="studio/"><img src="images/utils/logo-studio.png" alt=""><b>Studio</b><span>유튜버용 자막 · 컷 · 쇼츠</span></a>
+      <a class="tile" href="audio/"><img src="images/utils/logo-audio.png" alt=""><b>Audio</b><span>녹음 · 소리 편집</span></a>
     </div>
-
+    <h2 class="tiles-h">문서 · 파일</h2>
+    <div class="tiles">
+      <a class="tile" href="pdf/"><img src="images/utils/logo-pdf.png" alt=""><b>PDF</b><span>보기 · 편집 · 변환 · 서명</span></a>
+      <a class="tile" href="hwp/"><img src="images/utils/logo-hwp.png" alt=""><b>HWP</b><span>한글 문서 보기 · 변환</span></a>
+      <a class="tile" href="zip/"><img src="images/utils/logo-zip.png" alt=""><b>Zip</b><span>압축 · 풀기</span></a>
+      <a class="tile" href="rename/"><img src="images/utils/logo-rename.png" alt=""><b>Rename</b><span>이름 한꺼번에 바꾸기</span></a>
+      <a class="tile" href="clip/"><img src="images/utils/logo-clip.png" alt=""><b>Clip</b><span>클립보드 기록</span></a>
+      <a class="tile" href="send/"><img src="images/utils/logo-send.png" alt=""><b>Send</b><span>PC ↔ 휴대폰 파일 보내기</span></a>
+    </div>
+    </div>
 
     <div class="suite hubbox" id="hub">
       <div>
@@ -64,7 +80,7 @@
     <div class="suite" id="suite">
       <div>
         <h2>유틸 9가지 올인원</h2>
-        <p>View부터 Find까지 9가지를 한 번에 받아요. 라이선스도 <b>올인원 키 하나</b>면 모두 정식판이 돼요.</p>
+        <p>View부터 Find까지 9가지를 한 번에 받아요. 라이선스는 <b>올인원 키 하나</b>면 Cavalier 유틸 20가지가 모두 정식판이 돼요. 다른 프로그램은 설치 도우미로 골라 받으세요.</p>
         <div class="meta" data-meta="suite">Windows 10 · 11 (64비트)</div>
       </div>
       <a class="btn primary big" data-dl="suite" data-dl-main="suite-note" href="#suite">한 번에 받기</a>
@@ -79,6 +95,6 @@
     <div>라이선스 · 문의 <a data-mail="" data-mail-text href="#"></a></div>
   </div>
 </footer>
-<script src="site.js?v=20261112f"></script>
+<script src="site.js?v=20261112g"></script>
 </body>
 </html>

@@ -245,3 +245,4 @@ table.cmp .good { color: var(--ok); font-weight: 600; }
 .dp-sec.faq { max-width: 860px; }
 @media (max-width: 560px) { .dp-specs th { white-space: normal; width: 36%; } }
 .dp-plans.one { grid-template-columns: 1fr; max-width: 480px; }
+.tiles-h { text-align: left; font-size: 18px; margin: 36px 0 -24px; color: var(--sub); }
