@@ -190,3 +190,19 @@ table.cmp .good { color: var(--ok); font-weight: 600; }
   .products { grid-template-columns: 1fr; }
   .prodnav { display: none; }
 }
+
+/* 대문: 프로그램 타일 · 올인원 */
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 14px; margin-top: 40px; text-align: left; }
+.tile { display: flex; flex-direction: column; gap: 2px; padding: 18px; background: var(--card); border: 1px solid var(--line);
+        border-radius: var(--radius); color: var(--text); transition: border-color .15s, transform .15s; }
+.tile:hover { border-color: var(--accent); color: var(--text); transform: translateY(-2px); }
+.tile img { width: 44px; height: 44px; margin-bottom: 8px; }
+.tile b { font-size: 17px; }
+.tile span { color: var(--sub); font-size: 14px; }
+.suite { margin-top: 28px; padding: 24px 26px; border-radius: var(--radius); border: 2px solid var(--accent); background: var(--card);
+         display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; text-align: left; }
+.suite h2 { margin: 0 0 4px; font-size: 22px; }
+.suite p { margin: 0; color: var(--sub); }
+.suite #suite-note { flex-basis: 100%; }
+.suite #suite-note:empty { display: none; }
+@media (max-width: 560px) { .tiles { grid-template-columns: 1fr 1fr; } .tile { padding: 14px; } }
