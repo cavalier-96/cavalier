@@ -244,3 +244,4 @@ table.cmp .good { color: var(--ok); font-weight: 600; }
 .dp-specs tr:last-child th, .dp-specs tr:last-child td { border-bottom: none; }
 .dp-sec.faq { max-width: 860px; }
 @media (max-width: 560px) { .dp-specs th { white-space: normal; width: 36%; } }
+.dp-plans.one { grid-template-columns: 1fr; max-width: 480px; }

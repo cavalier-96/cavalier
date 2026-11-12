@@ -18,5 +18,9 @@ window.CAV_SITE = {
     tools:   { NAME: "Cavalier Tools",   DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/utils-v0.1.0/CavalierTools-0.1.0.zip", VERSION: "0.1.0", SIZE: "약 31MB" },
     player:  { NAME: "Cavalier Player",  DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/utils-v0.1.0/CavalierPlayer-0.1.0.zip", VERSION: "0.1.0", SIZE: "약 150MB" },
     find:    { NAME: "Cavalier Find",    DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/utils-v0.1.0/CavalierFind-0.1.0.zip", VERSION: "0.1.0", SIZE: "약 58MB" },
+// 2차 · 3차 (제품마다 릴리스 태그 <코드>-v0.1.0)
+    hub:     { NAME: "Cavalier 설치 도우미", DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/hub-v0.1.0/CavalierHub-0.1.0.zip", VERSION: "0.1.0", SIZE: "약 29MB" },
+    pdf:     { NAME: "Cavalier PDF",     DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/pdf-v0.1.0/CavalierPDF-0.1.0.zip", VERSION: "0.1.0", SIZE: "약 65MB" },
+    backup:  { NAME: "Cavalier Backup",  DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/backup-v0.1.0/CavalierBackup-0.1.0.zip", VERSION: "0.1.0", SIZE: "약 33MB" },
   },
 };
