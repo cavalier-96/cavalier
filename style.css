@@ -246,3 +246,9 @@ table.cmp .good { color: var(--ok); font-weight: 600; }
 @media (max-width: 560px) { .dp-specs th { white-space: normal; width: 36%; } }
 .dp-plans.one { grid-template-columns: 1fr; max-width: 480px; }
 .tiles-h { text-align: left; font-size: 18px; margin: 36px 0 -24px; color: var(--sub); }
+.cl { max-width: 860px; }
+.cl-item { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 20px; margin-bottom: 12px; }
+.cl-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.cl-head span { color: var(--sub); font-size: 14px; }
+.cl-item ul { margin: 8px 0 0; padding-left: 20px; color: var(--sub); }
+.cl-item li { margin: 4px 0; }

@@ -12,8 +12,8 @@
 <meta name="theme-color" content="#005fb8">
 <link rel="icon" href="../favicon.ico">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
-<link rel="stylesheet" href="../style.css?v=20261112g">
-<script src="../config.js?v=20261112g"></script>
+<link rel="stylesheet" href="../style.css?v=20261114a">
+<script src="../config.js?v=20261114a"></script>
 </head>
 <body>
 
@@ -35,7 +35,7 @@
     </div>
     <div class="meta" data-meta="backup">Windows 10 · 11 (64비트)</div>
     <p class="meta" id="dl-note"></p>
-    <picture class="dp-shot"><source srcset="../images/p/backup-dark.jpg?v=20261112g" media="(prefers-color-scheme: dark)"><img src="../images/p/backup-light.jpg?v=20261112g" alt="Cavalier Backup 화면" width="1120" height="720"></picture>
+    <picture class="dp-shot"><source srcset="../images/p/backup-dark.jpg?v=20261114a" media="(prefers-color-scheme: dark)"><img src="../images/p/backup-light.jpg?v=20261114a" alt="Cavalier Backup 화면" width="1120" height="720"></picture>
   </section>
 
   <section class="wrap dp-sec dp-about">
@@ -82,6 +82,8 @@
       <li>"Windows의 PC 보호" 창이 뜨면 <b>[추가 정보] → [실행]</b>을 눌러요.</li>
     </ol>
   </section>
+  <section class="wrap dp-sec cl"><h2>업데이트 기록</h2><div class="cl-item"><div class="cl-head"><b>Cavalier Backup 0.1.1</b><span>2026-11-14</span></div><ul><li>고친 것: 원본 안에 열 권한이 없는 폴더가 있으면, &#x27;거울&#x27; 백업이 그 폴더의 백업을 지운 것으로 보고 보관함으로 옮기던 문제를 고쳤어요. (&#x27;양쪽 동기화&#x27;에서는 반대쪽 파일까지 지워질 수 있었어요.) 이제 읽지 못한 폴더 안은 건드리지 않고 알려 드려요.</li><li>고친 것: 백업하는 드라이브 공간이 꽉 차거나 USB가 빠지면, 남은 파일을 하나하나 다 실패하던 것을 고쳤어요. 이제 바로 멈추고 &quot;공간이 꽉 찼어요&quot; · &quot;드라이브가 빠졌어요&quot;라고 알려 드리고, 아무것도 지우지 않아요. 다시 하면 이어서 해요.</li><li>고친 것: 원본 폴더를 열 권한이 없거나 파일을 열 권한이 없을 때 영어 오류가 나오던 것을 쉬운 한국어로 바꿨어요.</li><li>고친 것: [지금 백업]이 끝났는데 실패하거나 건너뛴 파일이 있으면, 몇 개가 왜 안 됐는지 결과 창으로 보여 드려요. 파일마다 이유를 보고 복사할 수 있어요.</li><li>고친 것: 예상하지 못한 오류가 생겨도 프로그램이 꺼지지 않고 쉬운 말로 알려 드려요. 자세한 내용은 설정 폴더의 errors.log 에 남아요.</li><li>확인한 것: 쓰는 중인 파일은 건너뛰고 다음에 다시 해요. 빈 파일 · 잘린 사진 · 이름만 바꾼 파일 · 이모지 이름 · 읽기 전용 · 아주 긴 경로 · 5GB 파일도 잘 돼요. 백업 도중 컴퓨터가 꺼진 것처럼 강제로 끝내도 다시 하면 바이트까지 똑같아요.</li></ul></div><p class="meta" style="text-align:center"><a href="../updates/">모든 업데이트 기록 보기</a></p></section>
+
   <section class="wrap dp-sec faq">
     <h2>자주 묻는 질문</h2>
       <details><summary>백업한 파일은 어떤 모양으로 저장되나요?</summary><p>원본과 똑같은 폴더 · 파일 그대로 복사돼요. 특별한 압축 파일이 아니라서 이 프로그램이 없어도 탐색기로 바로 열 수 있어요.</p></details>
@@ -101,6 +103,6 @@
     <div>문의 <a data-mail="backup" data-mail-text href="#"></a></div>
   </div>
 </footer>
-<script src="../site.js?v=20261112g"></script>
+<script src="../site.js?v=20261114a"></script>
 </body>
 </html>
