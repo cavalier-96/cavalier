@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>통합 트레이 · 백그라운드 기능 — Cavalier</title>
+<meta name="description" content="Cavalier 도구들의 트레이 아이콘을 하나로 모으고, 늘 켜 두는 기능을 실제로 잰 숫자와 함께 고르는 법">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="../favicon.ico">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="stylesheet" href="../style.css?v=20261115a">
+<script src="../config.js?v=20261115a"></script>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="../"><img src="../images/logo-cavalier.png" alt="">Cavalier</a>
+    <nav><a href="../#programs">← 모든 프로그램</a></nav>
+  </div>
+</header>
+<main class="dp">
+  <section class="wrap dp-hero">
+    <h1>통합 트레이 · 백그라운드 기능</h1>
+    <p class="lead">작업 표시줄 오른쪽에 도구마다 뜨던 아이콘을 <b>Cavalier 아이콘 하나</b>로 모아요.
+      늘 켜 둘 기능은 <b>실제로 잰 숫자</b>를 보고 골라요.</p>
+    <picture class="dp-shot"><img src="../images/p/tray-panel.png?v=20261115a" alt="Cavalier 아이콘을 누르면 나오는 도구 모음" width="400" height="426" style="max-width:400px"></picture>
+  </section>
+
+  <section class="wrap dp-sec dp-about">
+    <h2>무엇이 좋아지나요</h2>
+    <ul>
+      <li><b>아이콘 1개</b> — Capture · Find · Clip · Tools · Clean 이 각자 띄우던 아이콘 대신 Cavalier 하나만 보여요.</li>
+      <li><b>자동 시작 1개</b> — 컴퓨터를 켤 때 Cavalier 도우미 하나가 켜지고, 켜 둔 도구를 15초 뒤부터 하나씩 조용히 켜 줘요. 부팅할 때 한꺼번에 몰리지 않아요.</li>
+      <li><b>단축키는 그대로</b> — PrtSc · 찾기 · 클립보드 단축키는 각 도구가 계속 바로 받아요. 느려지지 않아요.</li>
+      <li><b>실측 숫자</b> — 기능마다 부팅 영향(윈도우가 잰 값)과 메모리(지금 잰 값)를 보여 줘요. 기록이 없으면 '측정 전'이라고 써요. 짐작한 숫자를 실측처럼 보여 주지 않아요.</li>
+      <li><b>꺼지면 다시 켜요</b> — 도구가 오류로 꺼지면 도우미가 다시 켜 줘요 (한 시간에 3번까지).</li>
+    </ul>
+  </section>
+
+  <section class="wrap dp-sec">
+    <h2>백그라운드 기능 화면</h2>
+    <p>Cavalier 아이콘 → [백그라운드 기능]. 늘 켜 둘 기능만 고르세요. 스위치는 누르는 즉시 '켜는 중… / 끄는 중…'으로 바뀌고, 끝날 때까지 다시 눌리지 않아요.</p>
+    <picture class="dp-shot"><img src="../images/p/tray-settings.png?v=20261115a" alt="백그라운드 기능: 기능마다 단축키 · 부팅 영향 · 메모리 · 켜기" width="980" height="600"></picture>
+    <p class="meta">부팅 영향은 작업 관리자의 '시작 영향'과 같은 출처 · 기준이에요 (높음 = CPU 1초 또는 디스크 3MB 넘음, 보통 = CPU 0.3초 또는 디스크 0.3MB 넘음). 그 기록은 윈도우가 관리자 권한으로만 읽게 해 둬서, 아직 못 읽었으면 '측정 전'이에요.</p>
+  </section>
+
+  <section class="wrap dp-sec" id="start">
+    <h2>고르는 법 · 바꾸는 법</h2>
+    <ol>
+      <li><b>처음 설치할 때</b> — <a href="../hub/">설치 도우미</a>가 "트레이 아이콘을 Cavalier 하나로 모을까요? (추천)"를 한 번 물어요. [하나로 모으기]를 누르면 끝이에요.</li>
+      <li><b>이미 쓰고 있다면</b> — 설치 도우미를 새 판으로 켜면 같은 질문을 한 번 물어요. 모으면 각 도구의 자동 시작이 도우미로 옮겨지고, 결과("아이콘 3개 → 1개")를 보여 줘요.</li>
+      <li><b>나중에 바꾸기</b> — Cavalier 아이콘 → [백그라운드 기능] → '트레이에는 Cavalier 아이콘 하나만 보이기'를 끄면 예전처럼 도구마다 따로예요.</li>
+    </ol>
+  </section>
+
+  <section class="wrap dp-sec faq">
+    <h2>자주 묻는 질문</h2>
+    <details><summary>Capture · Find 아이콘이 사라졌어요.</summary><p>Cavalier 아이콘 하나로 모였어요. 작업 표시줄 오른쪽의 Cavalier 아이콘을 누르면 도구 모음이 나와요. 아이콘이 안 보이면 '^'(숨겨진 아이콘)을 눌러 보세요.</p></details>
+    <details><summary>단축키가 안 돼요.</summary><p>Cavalier 아이콘 → [백그라운드 기능]에서 그 기능이 '켜짐'인지 봐 주세요. 켜져 있는데도 안 되면 다른 프로그램이 같은 키를 쓰고 있을 수 있어요. 각 도구의 설정 → 단축키에 '사용 중'과 바꾸는 법이 나와요.</p></details>
+    <details><summary>메모리는 얼마나 쓰나요?</summary><p>[백그라운드 기능] 오른쪽 위에 지금 쓰는 양이 실제로 잰 값으로 나와요. 예: Capture 약 160MB, Find 약 580MB (파일 216만 개 목록을 메모리에 들고 있어서 즉시 찾을 수 있어요). 안 쓰는 기능을 끄면 그만큼 줄어요.</p></details>
+    <details><summary>따로 쓰고 싶어요.</summary><p>[백그라운드 기능]에서 '트레이에는 Cavalier 아이콘 하나만 보이기'를 끄면 돼요. 켜 둔 도구는 각자 아이콘과 자동 시작을 다시 써요.</p></details>
+    <details><summary>Cavalier 도우미를 끄면 어떻게 되나요?</summary><p>단축키와 클립보드 기록이 멈춰요. 각 프로그램은 시작 메뉴에서 직접 켜서 쓸 수 있어요. 컴퓨터를 다시 켜면 도우미도 다시 켜져요.</p></details>
+  </section>
+
+  <section class="wrap dp-sec">
+    <h2>앞으로</h2>
+    <p>지금(1단계)은 아이콘 · 자동 시작 · 관리를 하나로 모았어요. 다음 단계에서는 늘 떠 있는 부분을 도우미 한 프로그램 안으로 합쳐서, 떠 있는 프로그램 수와 메모리를 더 줄일 계획이에요.</p>
+    <p class="meta" style="text-align:center"><a href="../updates/">모든 업데이트 기록 보기</a></p>
+  </section>
+</main>
+<footer class="wrap"><p class="meta">Cavalier · 문의 cavalier_-@naver.com</p></footer>
+</body>
+</html>
