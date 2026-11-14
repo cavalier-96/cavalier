@@ -19,7 +19,7 @@ window.CAV_SITE = {
     player:  { NAME: "Cavalier Player",  DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/player-v0.1.2/CavalierPlayer-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 150MB" },
     find:    { NAME: "Cavalier Find",    DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/find-v0.1.2/CavalierFind-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 58MB" },
 // 2차 · 3차 (제품마다 릴리스 태그 <코드>-v0.1.0)
-    hub:     { NAME: "Cavalier 설치 도우미", DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/hub-v0.1.2/CavalierHub-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 29MB" },
+    hub:     { NAME: "Cavalier 설치 도우미", DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/hub-v0.1.3/CavalierHub-0.1.3.zip", VERSION: "0.1.3", SIZE: "약 29MB" },
     pdf:     { NAME: "Cavalier PDF",     DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/pdf-v0.1.2/CavalierPDF-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 66MB" },
     backup:  { NAME: "Cavalier Backup",  DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/backup-v0.1.2/CavalierBackup-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 34MB" },
     font:    { NAME: "Cavalier Font", DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/font-v0.1.2/CavalierFont-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 33MB" },
@@ -27,7 +27,7 @@ window.CAV_SITE = {
     pix:     { NAME: "Cavalier Pix", DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/pix-v0.1.2/CavalierPix-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 116MB" },
     cut:     { NAME: "Cavalier Cut", DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/cut-v0.1.2/CavalierCut-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 127MB" },
     hwp:     { NAME: "Cavalier HWP", DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/hwp-v0.1.2/CavalierHWP-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 36MB" },
-    send:    { NAME: "Cavalier Send", DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/send-v0.1.2/CavalierSend-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 35MB" },
+    send:    { NAME: "Cavalier Send", DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/send-v0.1.3/CavalierSend-0.1.3.zip", VERSION: "0.1.3", SIZE: "약 35MB" },
     recover: { NAME: "Cavalier Recover", DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/recover-v0.1.2/CavalierRecover-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 52MB" },
     studio:  { NAME: "Cavalier Studio", DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/studio-v0.1.2/CavalierStudio-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 199MB" },
     photo:   { NAME: "Cavalier Photo", DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/photo-v0.1.2/CavalierPhoto-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 54MB" },
