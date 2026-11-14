@@ -17,7 +17,7 @@ window.CAV_SITE = {
     rename:  { NAME: "Cavalier Rename",  DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/rename-v0.1.2/CavalierRename-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 34MB" },
     tools:   { NAME: "Cavalier Tools",   DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/tools-v0.1.2/CavalierTools-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 31MB" },
     player:  { NAME: "Cavalier Player",  DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/player-v0.1.2/CavalierPlayer-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 150MB" },
-    find:    { NAME: "Cavalier Find",    DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/find-v0.1.3/CavalierFind-0.1.3.zip", VERSION: "0.1.3", SIZE: "약 58MB" },
+    find:    { NAME: "Cavalier Find",    DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/find-v0.1.4/CavalierFind-0.1.4.zip", VERSION: "0.1.4", SIZE: "약 58MB" },
 // 2차 · 3차 (제품마다 릴리스 태그 <코드>-v0.1.0)
     hub:     { NAME: "Cavalier 설치 도우미", DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/hub-v0.1.3/CavalierHub-0.1.3.zip", VERSION: "0.1.3", SIZE: "약 29MB" },
     pdf:     { NAME: "Cavalier PDF",     DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/pdf-v0.1.2/CavalierPDF-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 66MB" },
