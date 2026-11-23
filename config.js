@@ -19,7 +19,7 @@ window.CAV_SITE = {
     player:  { NAME: "Cavalier Player",  DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/player-v0.1.2/CavalierPlayer-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 150MB" },
     find:    { NAME: "Cavalier Find",    DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/find-v0.1.7/CavalierFind-0.1.7.zip", VERSION: "0.1.7", SIZE: "약 58MB" },
 // 2차 · 3차 (제품마다 릴리스 태그 <코드>-v0.1.0)
-    hub:     { NAME: "Cavalier 설치 도우미", DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/hub-v0.1.5/CavalierHub-0.1.5.zip", VERSION: "0.1.5", SIZE: "약 29MB" },
+    hub:     { NAME: "Cavalier 설치 도우미", DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/hub-v0.1.6/CavalierHub-0.1.6.zip", VERSION: "0.1.6", SIZE: "약 29MB" },
     pdf:     { NAME: "Cavalier PDF",     DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/pdf-v0.1.2/CavalierPDF-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 66MB" },
     backup:  { NAME: "Cavalier Backup",  DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/backup-v0.1.2/CavalierBackup-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 34MB" },
     font:    { NAME: "Cavalier Font", DOWNLOAD_URL: "https://github.com/cavalier-96/cavalier/releases/download/font-v0.1.2/CavalierFont-0.1.2.zip", VERSION: "0.1.2", SIZE: "약 33MB" },
